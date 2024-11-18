@@ -1,0 +1,226 @@
+<!--Bonnie-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Website Theme2</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Company Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">New Patient</a></li>
+                <li><a href="#home">Pay My Bill</a></li>
+                <li><a href="#home">Our Providers</a></li>
+                <li class="dropdown">
+                  <a href="#services">Services ▾</a>
+                  <ul class="dropdown-content">
+                      <li><a href="#service1">Service 1</a></li>
+                      <li><a href="#service2">Service 2</a></li>
+                      <li><a href="#service3">Service 3</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#about">About ▾</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#our-story">Our Story</a></li>
+                        <li><a href="#team">Our Team</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="header-buttons">
+            <a href="#appointment" class="btn">Request Appointment</a>
+            <a href="#login" class="btn"> Login</a>
+        </div>
+    </header>
+    <!--image section-->
+    <section class="hero">
+      <div class="hero-text">
+          <h1>Your health is our priority</h1>
+      </div>
+      <div class="image-container">
+          <img src="Images/HomePageImage.jpg" alt="Healthcare Hero Image">
+          
+          <div class="contact-blocks">
+              <!-- Office Hours Block -->
+              <div class="contact-block hours-block">
+                  <h3>Office Hours</h3>
+                  <ul>
+                      <li>Monday: 9:00 AM - 6:00 PM</li>
+                      <li>Tuesday: 9:00 AM - 6:00 PM</li>
+                      <li>Wednesday: 9:00 AM - 6:00 PM</li>
+                      <li>Thursday: 9:00 AM - 6:00 PM</li>
+                      <li>Friday: Closed</li>
+                      <li>Saturday: Closed</li>
+                      <li>Sunday: Closed</li>
+                  </ul>
+              </div>
+
+              <!-- Contact Actions Block -->
+              <div class="contact-block action-block">
+                  <h3>Make an appointment with us now</h3>
+                  <button class="appointment-btn">Request an Appointment</button>
+                  <a href="tel:+1234567890" class="phone-btn">Call us: 508-432-5233</a>
+              </div>
+          </div>
+      </div>
+    </section>
+    
+    <!-- Why Choose Us And Location Section -->
+    <section class="info-section">
+        <div class="why-choose-us">
+            <h4>Why Choose Us?</h4>
+            <div class="reasons">
+                <div class="reason-item">
+                    <i class="fas fa-user-md"></i>
+                    <h5>Experienced Team</h5>
+                    <p>write something here................................................</p>
+                </div>
+                <div class="reason-item">
+                    <i class="fas fa-clock"></i>
+                    <h5>Convenient Hours</h5>
+                    <p>write something here................................................</p>
+                </div>
+                <div class="reason-item">
+                    <i class="fas fa-heart"></i>
+                    <h5>Patient-Centered Care</h5>
+                    <p>write something here................................................</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="location-info">
+            <div class="map-container">
+                <div class="map-placeholder">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2978.8164533042395!2d-70.0744054!3d41.7028979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89fb3f955470dcc1%3A0xeea93286a818e985!2s253%20Pleasant%20Lake%20Ave%2C%20Harwich%2C%20MA%2002645!5e0!3m2!1sen!2sus!4v1731879586948!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="address-block">
+                <h5>Our Location</h5>
+                <address>
+                    253 Pleasant Lake Ave<br>
+                    Harwich, MA 02645<br>
+                    <strong>Phone:</strong> 508-432-5233<br>
+                    <strong>Fax:</strong> 508-432-5233<br>
+                </address>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Insurance Section -->
+    <section class="insurance-section">
+        <h2>Insurances We Accept</h2>
+        <p>We accept most insurances. Please call us to check if your insurance is accepted.</p>
+        <a href="#insurance" class="learn-more-btn">Learn More</a>
+    </section>
+    <!--  google reviews section -->
+    <section class="reviews">
+      <div class="reviews-container">
+          <div class="reviews-header">
+              <h2>What our patients say about us</h2>
+              <div class="rating-box">
+                  <div class="rating-score">4.8 / 5</div>
+                  <div class="rating-stars">⭐⭐⭐⭐⭐</div>
+                  <div class="rating-count">Based on 50+ Google Reviews</div>
+              </div>
+          </div>
+          <div class="reviews-grid">
+              <div class="review-card">
+                  <div class="review-header">
+                      <img src="Images/google-review.png" alt="Google Review" class="google-icon">
+                      <div class="stars">⭐⭐⭐⭐⭐</div>
+                  </div>
+                  <p class="review-text">"Extract from google review"</p>
+                  <div class="reviewer">
+                      <p class="reviewer-name">Name</p>
+                      <p class="review-date">2 weeks ago</p>
+                  </div>
+              </div>
+
+              <div class="review-card">
+                  <div class="review-header">
+                      <img src="Images/google-review.png" alt="Google Review" class="google-icon">
+                      <div class="stars">⭐⭐⭐⭐⭐</div>
+                  </div>
+                  <p class="review-text">"Extract from google review"</p>
+                  <div class="reviewer">
+                      <p class="reviewer-name">Name</p>
+                      <p class="review-date">1 month ago</p>
+                  </div>
+              </div>
+
+              <div class="review-card">
+                  <div class="review-header">
+                      <img src="Images/google-review.png" alt="Google Review" class="google-icon">
+                      <div class="stars">⭐⭐⭐⭐⭐</div>
+                  </div>
+                  <p class="review-text">"Extract from google review"</p>
+                  <div class="reviewer">
+                      <p class="reviewer-name">Name</p>
+                      <p class="review-date">1 month ago</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- footer section -->
+  <footer class="footer">
+    <div class="footer-container">
+        <div class="footer-content">
+            <!-- Logo Section -->
+            <div class="footer-logo">
+                <img src="Images/LOGO.png" alt="Pleasant Lake Medical Center Logo">
+            </div>
+
+            <!-- Contact Info -->
+            <div class="footer-contact">
+                <p>253 Pleasant Lake Ave</p>
+                <p>Harwich, MA 02645</p>
+                <p>Phone: 508-432-5233</p>
+                <p>Fax: 508-432-5233</p>
+            </div>
+              <!-- Link Section -->
+            <div class="footer-links1">
+                <ul>
+                    <li><a href="#home">New Patient</a></li>
+                    <li><a href="#home">Pay My Bill</a></li>
+                    <li><a href="#home">Our Providers</a></li>
+                    <li><a href="#home">Our Services</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links2">
+                <ul>
+                    <li><a href="#home">Insurance</a></li>
+                    <li><a href="#home">Location</a></li>
+                    <li><a href="#home">About us</a></li>
+                    <li><a href="#home">Contact us</a></li>
+                </ul>
+            </div>
+
+            <!-- Social Media -->
+            <div class="footer-social">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+        
+        <!-- Copyright -->
+        <div class="footer-bottom">
+            <p>&copy; 2024 Pleasant Lake Medical Center. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
